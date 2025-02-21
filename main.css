@@ -1,0 +1,25 @@
+body {background-color: black;
+
+}
+.szia{
+    font-size: 70px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 35s linear infinite;
+    text-align: center;
+}
+
+@keyframes move{
+    to {
+        background-position: 450vh;
+    }
+}
+.dc-link{
+    color: cadetblue;
+    text-align: center;
+}
+.dc-link2{
+    color: cadetblue;
+    text-align: center;
+}
